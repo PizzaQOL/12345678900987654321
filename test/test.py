@@ -8,7 +8,7 @@ from pyotp import TOTP
 api_uri = "http://localhost:3000"
 
 # needs to be same key as the one in your api
-pass32 = 'K4ZVUQTSIRMDOWKRGU2WQQTZJM======'
+pass32 = 'https://pleasework-8y0r.onrender.com'
 key = TOTP(pass32).now()
 embed = {
     'content': 'It works!',
